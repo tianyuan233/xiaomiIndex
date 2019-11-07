@@ -1,0 +1,69 @@
+/* 通用样式 大多与页面结构无关*/
+@font-face {
+  font-family: 'iconfont';
+  /* project id 1211573 */
+  src: url('//at.alicdn.com/t/font_1211573_v2f59l4jjk.eot');
+  src: url('//at.alicdn.com/t/font_1211573_v2f59l4jjk.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1211573_v2f59l4jjk.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1211573_v2f59l4jjk.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1211573_v2f59l4jjk.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1211573_v2f59l4jjk.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-width: 1226px;
+  margin: 0;
+  font: 14px/1.5 "Helvetica Neue",
+    Helvetica,
+    Arial,
+    "Microsoft Yahei",
+    "Hiragino Sans GB",
+    "Heiti SC",
+    "WenQuanYi Micro Hei",
+    sans-serif;
+}
+
+
+.container {
+  width: 1226px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.hide {
+  display: none !important;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #757575;
+}
+
+.span4,.span16 {
+  float: left;
+}
+.span4 {
+  width: 234px;
+}
+
+.span16 {
+  width: 978px;
+  /* margin-left: 14px; */
+}
